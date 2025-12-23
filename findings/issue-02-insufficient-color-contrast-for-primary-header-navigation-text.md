@@ -5,7 +5,7 @@ The "Discover" nav item is selected by default on the search results page. It ha
 
 This issue was initially identified via an axe DevTools scan and was manually validated using WebAIM's color contrast checker.
 
-**WCAG 2.2 SC:** WCAG 2.2 — 1.4.3 Contrast (Minimum) (Level AA)  
+**WCAG 2.2:** 1.4.3 Contrast (Minimum) (Level AA)  
 **Severity:** Medium
 **Affected users:** Low-vision users and users in low-contrast viewing conditions
 
