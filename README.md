@@ -14,9 +14,11 @@ This repository contains a scoped accessibility audit of a public education tech
 - Standards: WCAG 2.2 Level AA
 
 ## Methodology
+- Automated scanning was performed using the axe DevTools browser extension. Results were manually reviewed and validated as part of the audit process.
+
 - Automated scanning using axe-core
 - Manual keyboard-only testing
-- Screen reader spot checks (NVDA/VoiceOver)
+- Screen reader spot checks (NVDA)
 - Responsive accessibility verification
 
 Automated tools were used as an initial signal only. All reported issues were manually validated.
