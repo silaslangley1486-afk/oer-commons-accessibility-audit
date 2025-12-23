@@ -1,4 +1,4 @@
-## Issue: Misapplied ARIA widget role (role="menubar") without required child roles; likely incorrect pattern for site header navigation.
+## Issue: Misapplied ARIA menubar role causes misleading screen reader context in global navigation
 
 **Evidence:**
 
@@ -11,6 +11,8 @@
 1. Screen reader users are misled about the menu type.
 2. Keyboard users cannot navigate as expected for the announced menu type.
 3. Violates proper use of ARIA roles.
+
+This issue was initially identified via an axe DevTools scan and was manually validated using screen reader and keyboard testing.
 
 **WCAG 2.1 SC:** WCAG 2.2 — 4.1.2 Name, Role, Value (Level A)  
 **Severity:** High 
@@ -30,3 +32,4 @@ Search icon is announced as belonging to a sub-menu.
 1. Remove role="menubar".
 2. Remove role="menuitem" from the child that has it.
 3. Use a <nav> tag instead for the menu: <nav aria-label="Search and user menu">
+4. Use native links and buttons.
