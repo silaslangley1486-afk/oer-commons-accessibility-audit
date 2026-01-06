@@ -1,4 +1,4 @@
-# OER Commons Accessibility Audit (WCAG 2.2 AA)
+# OER Commons Accessibility Audit (WCAG 2.1 AA)
 
 This repository contains a scoped accessibility audit of a public education technology platform, conducted for professional development and portfolio purposes.
 
@@ -11,7 +11,7 @@ This repository contains a scoped accessibility audit of a public education tech
 - Viewports:
   - Desktop (1280x800)
   - Mobile (375x667)
-- Standards: WCAG 2.2 Level AA
+- Standards: WCAG 2.1 Level AA
 
 ## Methodology
 - Automated scanning was performed using the axe DevTools browser extension. Results were manually reviewed and validated as part of the audit process.

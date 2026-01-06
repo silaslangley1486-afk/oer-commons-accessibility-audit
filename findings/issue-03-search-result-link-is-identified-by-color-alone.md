@@ -7,7 +7,7 @@ Users with color vision deficiencies or users navigating without a mouse may hav
 
 This issue was initially identified via an axe DevTools scan and was manually validated by viewing the links on the page and hovering over them.
 
-**WCAG 2.2:** 1.4.1 Use of Color (Level A)  
+**WCAG 2.1:** 1.4.1 Use of Color (Level A)  
 **Severity:** Medium
 **Affected users:** users with color vision deficiencies, users without a mouse
 

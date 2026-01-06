@@ -14,7 +14,7 @@
 
 This issue was initially identified via an axe DevTools scan and was manually validated using screen reader and keyboard testing.
 
-**WCAG 2.2:** 4.1.2 Name, Role, Value (Level A)  
+**WCAG 2.1:** 4.1.2 Name, Role, Value (Level A)  
 **Severity:** High 
 **Affected users:** Screen reader users 
 
