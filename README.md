@@ -3,7 +3,7 @@
 This repository contains a scoped accessibility audit of a public education technology platform, conducted for professional development and portfolio purposes.
 
 ## Scope
-- Site: OER Commons (public pages only)
+- Site: OER Commons, https://oercommons.org/ (public pages only)
 - Flow audited:
   - Search results
   - Filter interactions
