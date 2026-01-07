@@ -4,6 +4,8 @@
 
 On the Search Results page, the interface includes a “View” selector that allows users to choose between two mutually exclusive display options (e.g., Detail view and List view). Conceptually, this control functions as a radio group where only one option can be selected at a time. The HTML also identifies the options as intended to be radio buttons.
 
+See /screenshots/view-controls.png for the controls.
+
 However, screen readers announce each option as a **toggle button** (e.g., “View Detail Toggle Button”, “View List Toggle Button”) rather than as radio buttons within a group. Thus, the toggle role suggested by screen readers doesn't match the intended radio button role.
 
 Although the selected state is announced correctly, the screen reader announcements misrepresent the nature of the control and may confuse screen reader users.
