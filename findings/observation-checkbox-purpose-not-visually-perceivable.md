@@ -6,6 +6,8 @@ On the Search Resources page, the purpose of the checkbox in the row of controls
 
 Selecting the checkbox also causes a Save button to appear, without a visible explanation of the relationship between the checkbox and the resulting action.
 
+See /screesnhots/view-controls.png for the search results controls.
+
 ### Impact
 
 Sighted users navigating by keyboard may be unable to determine the purpose of the checkbox or anticipate the result of interacting with it. This can lead to confusion and reduced usability when interacting with the search results interface.
