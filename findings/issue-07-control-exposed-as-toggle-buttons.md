@@ -39,7 +39,6 @@ Implement the control using a single, consistent interaction pattern:
 - Preferably use `<fieldset>` and `<legend>` to group the native radio buttons **or**
 - Use `role="radiogroup"` to group the radio buttons and use `role="radio"` with `aria-checked` on the options.
 
-
 Avoid mixing button and radio semantics, and ensure the programmatic role matches the intended user interaction.
 
 ### Notes
