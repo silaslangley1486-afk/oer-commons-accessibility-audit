@@ -1,0 +1,22 @@
+## Issue: Screen identifies an element as a "Table" when it is not a table.
+
+### Description
+
+On the Search Results page, the Search input is visually presented within a grid-like row layout. When focus enters the Search input, the screen reader announces “Table,” despite the content not being a data table and not supporting table navigation. This likely results from grid-based layout cues being interpreted as tabular structure.
+
+### Impact
+
+This may mislead screen reader users into thinking the Search input is part of a table, causing confusion and unnecessary cognitive load when navigating the page. E.g, It wrongly causes users to expect table keyboard navigation commands. This makes it harder for users to perform searches.
+
+**WCAG 2.1:** 1.3.1 Info and Relationships (A)
+**Severity:** Medium
+**Affected users:** Screen-reader users, keyboard-only users
+
+### Suggested Remediation
+
+1. Ensure grid layouts for form controls do not expose table semantics.
+2. Prefer semantic grouping: <form> + <fieldset> + <legend>
+    or a named region ("aria-labelledby")
+    to help immedaite orientation and reduce cognitive dissonance when "Table" us read.
+3. Avoid CSS table display values for layout.
+4. Validate with NVDA / VoiceOver after changes.
