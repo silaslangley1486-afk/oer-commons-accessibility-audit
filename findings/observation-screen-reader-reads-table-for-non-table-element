@@ -1,4 +1,4 @@
-### Intermittent screen reader announcement of “table” near search input (observational)
+### Issue: Intermittent screen reader announcement of “table” near search input (observational)
 
 ### Description
 
@@ -15,7 +15,7 @@ This may only impact some screen readers in specific contexts. In such cases, it
 **Recommendation:** 
 
 1. Ensure grid layouts for form controls do not expose table semantics.
-2. Prefer semantic grouping: <form> + <fieldset> + <legend>
+2. Prefer semantic grouping: `<form>` + `<fieldset>` + `<legend>`
     or a named region ("aria-labelledby")
     to help immedaite orientation and reduce cognitive dissonance when "Table" us read.
 3. Avoid CSS table display values for layout.
