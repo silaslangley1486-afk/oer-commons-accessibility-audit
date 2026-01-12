@@ -1,4 +1,4 @@
-### Issue: Login modal dialog lacks required semantics and missing Close control on larger viewport widths
+## Issue: Login modal dialog lacks required semantics and missing Close control on larger viewport widths
 
 ### Description
 
@@ -11,10 +11,11 @@ A "Close" button exists in the markup (`aria-label="Close"`), but it is configur
 The lack of `aria-modal="true"` may cause assistive technology users to be overwhelmed by irrelevant background content when the dialog is open. Also, sighted keyboard-only users on desktop may not know how to close the dialog. This can lead to confusion, increase frustration, and increase the possibility of unintended actions. The inconsistency between the visibility of the "Close" control on different viewport widths may cause confusion for users who rely on predictable interaction patterns to identify how to dismiss modal content.
 
 **WCAG 2.1:**
-    4.1.2 – Name, Role, Value (Primary) (A)
-    3.2.4 - Consistent Identification (Secondary) (AA)
 
-**Severity:** Medium
+4.1.2 – Name, Role, Value (Primary) (A)  
+3.2.4 - Consistent Identification (Secondary) (AA)
+
+**Severity:** Medium  
 **Affected users:** keyboard only users, assistive technology users
 
 ### Evidence / notes
