@@ -14,12 +14,12 @@ Assisted technology users may be confused about what the dialog is for. This inc
 **Severity:** Medium–High
 **Affected users:** assistive technology users
 
-### Evidence / notes:
+### Evidence / notes
     - Screen reader announcement: “dialog” (title not announced)  
     - Visible title present: `<div class="login-title">Sign in / Register</div>`  
     - Dialog container lacks `aria-label` or `aria-labelledby`
 
-### Recommended remediation:
+### Recommended remediation
 
 1. Give the dialog title an `id`.
 2. Reference it from the dialog container with `aria-labelledby`.
