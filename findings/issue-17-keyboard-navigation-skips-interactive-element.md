@@ -8,11 +8,15 @@ The filter controls are not accessible via keyboard navigation because an <a> is
 
 The filters section is usable by keyboard-only users once it is opened. But there is no way for keyboard-only users to close it.
 
+Also, when the filter controls are activated via mouse, the focus shifts to the Search section which is above the Filter section.
+
 ### Impact
 
-Keyboard-only users cannot view or use the Filters section. Keyboard-only users cannot close it once it is opened via mouse.
+Keyboard-only users cannot view or use the Filters section. Keyboard-only users cannot close it once it is opened via mouse. The shifting of the focus to the Search section after activating the controls via mouse confuses keyboard-only users, since it is not clear where the focus shifted and they must now tab back through the Search section to get to the Filters section.
 
-**WCAG 2.1 Reference:**  2.1.1 Keyboard (A)
+**WCAG 2.1 Reference:**
+    2.1.1 Keyboard (A) (primary)
+    2.4.3 Focus Order (A) (secondary)
 **Severity:** High
 **Affected users:** keyboard-only users
 
@@ -20,4 +24,6 @@ Keyboard-only users cannot view or use the Filters section. Keyboard-only users 
 
 1. Use a <button> instead of an <a> for the Open Filters and Close Filters controls.
 2. Ensure that the buttons have a focus indicator.
-3. Ensure that an accessible focus order is preserved when activating the controls.
+3. Manage focus explicitly:
+    - On open: shift focus to the filters section (e.g., section heading or first filter control).
+    - On close: return focus to the triggering control.
