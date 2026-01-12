@@ -1,21 +1,21 @@
 ## Issue: Misapplied ARIA menubar role causes misleading screen reader context in global navigation
 
-**Evidence:**
+### Description
 
 1. Screen reader announces “submenu” instead of a top-level menu.
 2. Arrow-key navigation expected for menubar is not supported.
 3. Interaction follows standard tab order, not menu behavior.
 
-**Impact:**
+### Impact
 
 1. Assisted technology users are misled about the menu type.
 2. Keyboard users cannot navigate as expected for the announced menu type.
 3. Violates proper use of ARIA roles.
 
-This issue was initially identified via an axe DevTools scan and was manually validated using screen reader and keyboard testing.
+**Note:** This issue was initially identified via an axe DevTools scan and was manually validated using screen reader and keyboard testing.
 
 **WCAG 2.1:** 4.1.2 Name, Role, Value (Level A)  
-**Severity:** High 
+**Severity:** High  
 **Affected users:** assistive technology users 
 
 ### Steps to Reproduce
