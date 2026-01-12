@@ -19,7 +19,7 @@ This will confuse keyboard-only users since there is no obvious way to close it 
 1. Navigate to the search results page.
 2. Move focus to the checkbox at the beginning of the search result controls.
 3. Press Space or Enter to select the checkbox.
-4. Tab to the newly visible Save button and press Enter or Space to open the dropdown.
+4. Tab to the newly visible "Save" button and press Enter or Space to open the dropdown.
 5. Press tab to navigate to the Login control inside the dropdown.
 6. Press Esc to exit the dropdown
 
