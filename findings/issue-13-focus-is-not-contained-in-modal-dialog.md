@@ -2,7 +2,7 @@
 
 ### Description
 
-A Login control on the Search Results page opens a modal dialog. But the focus is ont contained inside the dialog. Tabbing past the last focusable element in the dialog can move focus outside the modal dialog to browser UI controls. Using Shift + Tab on the first focusable element in the modal dialog sometimes but not always closes the modal dialog. It also shifts focus to the last focusable element on the page where the modal is opened.
+A Login control on the Search Results page opens a modal dialog. But the focus is ont contained inside the dialog. Tabbing past the last focusable element in the dialog moves focus outside the modal dialog to browser UI controls. Using Shift + Tab on the first focusable element in the modal dialog sometimes but not always closes the modal dialog. It also shifts focus to the last focusable element on the page where the modal is opened.
 
 The focus movement is unpredictable and confusing. It is difficult for keyboard users to understand where the focus is located and to reliably interact within the dialog.
 
