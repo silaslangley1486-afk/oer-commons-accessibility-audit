@@ -9,8 +9,8 @@ On the Search Results page, there is a radio button group that has a "view detai
 
 Not everyone sees color in the same way. So only using a color indicator makes it difficult for users with color impairments to determine which option is selected. Color-impaired users may still be able to tell which one is selected by the difference in lightness between the selected and unselected otpion. However, the contrast is slight and users with color and vision impairments may still struggle to tell which option is selected.
 
-**WCAG 2.1:** 1.4.1 Use of Color (A)
-**Severity:** Medium
+**WCAG 2.1:** 1.4.1 Use of Color (A)  
+**Severity:** Medium  
 **Affected users:** color and vision impaired users
 
 ### Suggested Remediation
