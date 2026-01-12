@@ -10,7 +10,7 @@ While the dropdown can be opened via keyboard, it cannot be dismissed using stan
 
 This will confuse keyboard-only users since there is no obvious way to close it with only the keyboard. The dropdown when open also prevents viewing part of the first search result, so the open dropdown impacts usability adding to further frustration on the part of the user.
 
-**WCAG 2.1:**: 2.1.1 Keyboard (A)  
+**WCAG 2.1:** 2.1.1 Keyboard (A)  
 **Severity:** Medium  
 **Affected users:** keyboard-only users
 

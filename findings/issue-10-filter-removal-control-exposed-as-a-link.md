@@ -1,4 +1,4 @@
-### Issue: Filter removal control exposed as a link with misleading semantics
+## Issue: Filter removal control exposed as a link with misleading semantics
 
 ### Description
 
@@ -8,12 +8,12 @@ The control is implemented as an anchor (`<a>`) element and announced by screen 
 
 Also, when the filter's control has focus, the screen reader does not name the filter that is to be removed, nor is there any indication that selecting the control will update the search results. Assisted technology users are therefore given the wrong role for the control and not enough information about what it's for.
 
-### Impact:
+### Impact
 
 Assisted technology users will wrongly expect navigation when selecting the control. This can lead to confusion, accidental filter removal, and difficulty understanding why search results have changed.
 
-**WCAG 2.1 Reference:** 4.1.2 – Name, Role, Value (A)
-**Severity:** Medium
+**WCAG 2.1:** 4.1.2 – Name, Role, Value (A)  
+**Severity:** Medium  
 **Affected users:** assisted technology users
 
 **Recommended remediation:**  
