@@ -11,7 +11,7 @@ Not everyone sees color in the same way. So only using a color indicator makes i
 
 **WCAG 2.1:** 1.4.1 Use of Color (A)
 **Severity:** Medium
-**Affected users:** Color and vision impaired users
+**Affected users:** color and vision impaired users
 
 ### Suggested Remediation
 

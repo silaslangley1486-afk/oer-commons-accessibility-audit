@@ -7,7 +7,7 @@ This issue was initially identified via an axe DevTools scan and was manually va
 
 **WCAG 2.1:** 1.4.3 Contrast (Minimum) (Level AA)  
 **Severity:** Medium
-**Affected users:** Low-vision users and users in low-contrast viewing conditions
+**Affected users:** low-vision users and users in low-contrast viewing conditions
 
 ### Suggested Remediation
 Adjust the background color of the selected navigation state to meet the 4.5:1 contrast ratio required for normal text, while preserving visual distinction for the active state.

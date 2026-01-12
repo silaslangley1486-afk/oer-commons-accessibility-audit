@@ -22,7 +22,7 @@ It is easy for keyboard users and assistive technology users to lose their place
 
 ### Steps to Reproduce
 
-1. Navigate to the search results page.
+1. Navigate to the Search Results page.
 2. Move focus to the checkbox at the beginning of the search result controls.
 3. Press Space or Enter to select the checkbox.
 4. Tab to the newly visible "Save" button and press Enter or Space to open the dropdown.

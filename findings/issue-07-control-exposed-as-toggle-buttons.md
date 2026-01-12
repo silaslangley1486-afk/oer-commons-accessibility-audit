@@ -12,11 +12,11 @@ Although the selected state is announced correctly, the screen reader announceme
 
 ### Impact
 
-Screen reader users may misunderstand how the control operates, including whether multiple options can be selected simultaneously. This increases cognitive load and reduces predictability when interacting with the controls.
+Assisted technology users may misunderstand how the control operates, including whether multiple options can be selected simultaneously. This increases cognitive load and reduces predictability when interacting with the controls.
 
 **WCAG 2.1:** 4.1.2 Name, Role, Value (A)
 **Severity:** Medium
-**Affected users:** Screen reader users
+**Affected users:** assisted technology users
 
 ### Steps to Reproduce
 

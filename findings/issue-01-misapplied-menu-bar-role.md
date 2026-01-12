@@ -8,7 +8,7 @@
 
 **Impact:**
 
-1. Screen reader users are misled about the menu type.
+1. Assisted technology users are misled about the menu type.
 2. Keyboard users cannot navigate as expected for the announced menu type.
 3. Violates proper use of ARIA roles.
 
@@ -16,7 +16,7 @@ This issue was initially identified via an axe DevTools scan and was manually va
 
 **WCAG 2.1:** 4.1.2 Name, Role, Value (Level A)  
 **Severity:** High 
-**Affected users:** Screen reader users 
+**Affected users:** assistive technology users 
 
 ### Steps to Reproduce
 1. Navigate to the search results page.
@@ -29,7 +29,7 @@ Search icon should not be announced as belonging to a sub-menu.
 Search icon is announced as belonging to a sub-menu.
 
 ### Suggested Remediation
-1. Remove role="menubar".
-2. Remove role="menuitem" from the child that has it.
+1. Remove `role="menubar"`.
+2. Remove `role="menuitem"` from the child that has it.
 3. Use a <nav> tag instead for the menu: <nav aria-label="Search and user menu">
 4. Use native links and buttons.

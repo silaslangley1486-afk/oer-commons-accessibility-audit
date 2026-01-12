@@ -2,7 +2,7 @@
 
 ### Description
 
-Pressing Enter on the Save button on the Search Results page opens a dropdown. The dropdown contains a Login control, which is its only focusable element. Once the User tabs to the Login control, there is no obvious way to close the dropdown. Pressing Esc will not close it. The only way to close it is to press Shift + Tab to return focus to the button and then press Esc, Space, or Return.
+Pressing Enter on the "Save" button on the Search Results page opens a dropdown. The dropdown contains a Login control, which is its only focusable element. Once the User tabs to the Login control, there is no obvious way to close the dropdown. Pressing Esc will not close it. The only way to close it is to press Shift + Tab to return focus to the button and then press Esc, Space, or Return.
 
 While the dropdown can be opened via keyboard, it cannot be dismissed using standard keyboard interaction once focus has moved inside, requiring users to perform non-obvious focus reversal to exit the component.
 
@@ -12,11 +12,11 @@ This will confuse keyboard-only users since there is no obvious way to close it 
 
 **WCAG 2.1:**: 2.1.1 Keyboard (A)
 **Severity:** Medium
-**Affected users:** Keyboard-only users
+**Affected users:** keyboard-only users
 
 ### Steps to Reproduce
 
-1. Navigate to the search results page.
+1. Navigate to the Search Results page.
 2. Move focus to the checkbox at the beginning of the search result controls.
 3. Press Space or Enter to select the checkbox.
 4. Tab to the newly visible "Save" button and press Enter or Space to open the dropdown.

@@ -11,7 +11,7 @@ Keyboard-only users may lose track of focus location when navigating to the sear
 Also see, WCAG 2.2 - 2.4.13 Focus Appearance (AAA)
 
 **Severity:** Medium
-**Affected users:** Low-vision users and users in low-contrast viewing conditions; keyboard-only users
+**Affected users:** low-vision users and users in low-contrast viewing conditions; keyboard-only users
 
 ### Suggested Remediation
 1. Increase color contrast between the focus indicator and the background image.
