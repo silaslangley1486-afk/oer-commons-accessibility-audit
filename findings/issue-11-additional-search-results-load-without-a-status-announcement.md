@@ -1,4 +1,4 @@
-### Issue: Additional search results load without a status announcement
+## Issue: Additional search results load without a status announcement
 
 ### Description
 
@@ -6,14 +6,14 @@ There is a "Load More" control at the bottom of the search results on the Search
 
 The focus remains on the "Load More" link when it is activated. Without any notification confirming that more search results were added, the user must continue tabbing on the page to determine whether more search results were added.
 
-### Impact:  
+### Impact
 
 Assisted technology users may become confused about whether more results were successfully loaded. As a result, screen readers may keep trying to activate the "Load More" link or navigate through the page unnecessarily to determine whether more results were loaded.
 
-**WCAG 2.1 Reference:**  4.1.3 – Status Messages (AA)
-**Severity:** Medium
+**WCAG 2.1 Reference:**  4.1.3 – Status Messages (AA)  
+**Severity:** Medium  
 **Affected users:** assisted technology users
 
-**Recommended remediation:**  
+### Recommended remediation:
 
 Add a status message that announces the successful loading of more search results. E.g., "20 more search results loaded." Use an appropriate ARIA live region. Then users will clearly know that more search results were loaded and focus won't be disrupted.
