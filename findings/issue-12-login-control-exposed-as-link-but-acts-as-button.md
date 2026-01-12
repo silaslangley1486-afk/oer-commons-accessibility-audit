@@ -1,4 +1,4 @@
-### Issue: login control exposed as link but acts as button
+## Issue: login control exposed as link but acts as button
 
 ### Description
 
@@ -8,8 +8,8 @@ On the Search Results page, there is a Login control that screen readers read as
 
 This misleads assisted technology users to expect page navigation when instead a dialog is opened. The mismatch between semantics and behavior and the unexpected context change may cause confusion and increase cognitive load.
 
-**WCAG 2.1:** 4.1.2 – Name, Role, Value (A)
-**Severity:** Medium
+**WCAG 2.1:** 4.1.2 – Name, Role, Value (A)  
+**Severity:** Medium  
 **Affected users:** assisted technology users
 
 ### Reproduction Steps
