@@ -9,7 +9,7 @@ Visually impaired users may have difficulty detecting that the nav item is selec
 **Note:** This issue was initially identified via an axe DevTools scan and was manually validated using WebAIM's color contrast checker.
 
 **WCAG 2.1:** 1.4.3 Contrast (Minimum) (Level AA)  
-**Severity:** Medium
+**Severity:** Medium  
 **Affected users:** low-vision users and users in low-contrast viewing conditions
 
 ### Suggested Remediation
