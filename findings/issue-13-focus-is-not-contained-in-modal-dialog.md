@@ -1,4 +1,4 @@
-### Issue: Modal dialog does not trap keyboard focus (focus can escape the dialog)
+## Issue: Modal dialog does not trap keyboard focus (focus can escape the dialog)
 
 ### Description
 
@@ -6,18 +6,20 @@ A Login control on the Search Results page opens a modal dialog. But the focus i
 
 The focus movement is unpredictable and confusing. It is difficult for keyboard users to understand where the focus is located and to reliably interact within the dialog.
 
-## Impact
+### Impact
 
 It is easy for keyboard users and assistive technology users to lose their place, become confused, accidentally exit the modal dialog, or reliably complete the task in the dialog. 
 
-**WCAG 2.1:**
-    2.4.3 – Focus Order (Primary) (A)
-    2.1.1 – Keyboard (Secondary) (A)
+**WCAG 2.1:**  
 
-**Severity:** High
+2.4.3 – Focus Order (Primary) (A)  
+2.1.1 – Keyboard (Secondary) (A)
+
+**Severity:** High  
 **Affected users:** keyboard only users, assistive technology users
 
-**Evidence / notes:**  
+### Evidence / notes
+
 - Dialog container includes `role="dialog"` and `tabindex="-1"`, but focus is not trapped within the dialog while open.
 
 ### Steps to Reproduce
@@ -28,7 +30,7 @@ It is easy for keyboard users and assistive technology users to lose their place
 4. Tab to the newly visible "Save" button and press Enter or Space to open the dropdown.
 5. Press tab to navigate to the Login control inside the dropdown.
 
-### Recommended remediation:
+### Recommended remediation
 
 1. Implement focus management consistent with modal dialog behavior:
     - Trap focus within the modal dialog while it is open. Tab and Shift+Tab should cycle through focusable elements inside the modal dialog.
