@@ -13,6 +13,8 @@ This repository contains a scoped accessibility audit of a public education tech
   - Mobile (375x667)
 - Standards: WCAG 2.1 Level AA
 
+Note: This audit includes the opening and closing of the Login Modal on the Resource detail page, but not the modal's content.
+
 ## Methodology
 - Automated scanning was performed using the axe DevTools browser extension. Results were manually reviewed and validated as part of the audit process.
 
