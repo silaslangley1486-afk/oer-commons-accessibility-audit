@@ -20,9 +20,9 @@ This repository documents an independent WCAG 2.1 Level AA accessibility audit o
 Note: This audit includes the opening and closing of the Login Modal on the Resource detail page, but not the modal's content.
 
 ## Methodology
-- Automated scanning was performed using the axe DevTools browser extension. Results were manually reviewed and validated as part of the audit process.
+- Automated scanning was performed using axe DevTools (axe-core). Results were manually reviewed and validated as part of the audit process.
 
-- Automated scanning using axe-core
+- Automated scanning using axe
 - Manual keyboard-only testing
 - Screen reader technology spot checks (NVDA)
 - Responsive accessibility verification
@@ -33,4 +33,4 @@ Automated tools were used as an initial signal only. All reported issues were ma
 - Individual issue documentation with remediation guidance
 
 ## Disclaimer
-This audit was conducted independently for educational purposes.
+This audit was conducted independently for professional development and portfolio purposes.
