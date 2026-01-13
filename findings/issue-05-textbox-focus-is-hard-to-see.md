@@ -10,7 +10,7 @@ Keyboard-only users may lose track of focus location when navigating to the sear
 
 **WCAG 2.1:** 2.4.7 Focus Visible (AA)
 
-Also see, WCAG 2.2 - 2.4.13 Focus Appearance (AAA)
+Related WCAG 2.2 Guidance: 2.4.13 Focus Appearance (Level AAA)
 
 **Severity:** Medium  
 **Affected users:** low-vision users and users in low-contrast viewing conditions; keyboard-only users

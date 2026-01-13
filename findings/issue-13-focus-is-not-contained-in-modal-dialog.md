@@ -34,5 +34,5 @@ It is easy for keyboard users and assistive technology users to lose their place
 
 1. Implement focus management consistent with modal dialog behavior:
     - Trap focus within the modal dialog while it is open. Tab and Shift+Tab should cycle through focusable elements inside the modal dialog.
-    - Ensure ESC consistently closes the modal dialog.
+    - Ensure Esc consistently closes the modal dialog.
     - When the modal dialog closes, return focus to the Login control that opened the dialog.

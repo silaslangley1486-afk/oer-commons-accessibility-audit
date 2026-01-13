@@ -10,12 +10,12 @@
 
 1. Assistive technology users are misled about the menu type.
 2. Keyboard users cannot navigate as expected for the announced menu type.
-3. Violates proper use of ARIA roles.
+3. Represents improper use of ARIA roles.
 
 **Note:** This issue was initially identified via an axe DevTools scan and was manually validated using screen reader and keyboard testing.
 
 **WCAG 2.1:** 4.1.2 Name, Role, Value (Level A)  
-**Severity:** High  
+**Severity:** Medium  
 **Affected users:** assistive technology users 
 
 ### Steps to Reproduce

@@ -22,7 +22,7 @@ Assistive technology users may misunderstand how the control operates, including
 
 1. Navigate to the search results page.
 2. Move focus to the “View” selector controls with a screen reader running.
-4. Notice that the screen reader announces each option as a toggle button rather than as part of a radio group.
+3. Notice that the screen reader announces each option as a toggle button rather than as part of a radio group.
 
 ### Expected Behavior
 

@@ -4,11 +4,11 @@
 On the Search Results page, after submitting a search either by pressing Enter on the Search input textbox or on the "Search" submit button, the page correctly reloads to show the search results. But there is no longer a keyboard focus on any element, making it unclear where the focus has gone. The active element becomes the page root body element.
 
 ### Impact
-Keyboard-only users will lose track of where the focus is. They will not be able to continue navigating through the page witout restarting the application.
+Keyboard-only users will lose track of where the focus is. They will not be able to continue navigating through the page without restarting the application.
 
-**WCAG 2.2:** 
- - 3.2.2 On Input (Level A)
- - 2.4.7 Focus Visible (Level AA)
+**WCAG 2.1:** 
+ - 3.2.2 On Input (A)
+ - 2.4.7 Focus Visible (AA)
 
 **Severity:** Medium  
 **Affected users:** keyboard-only users

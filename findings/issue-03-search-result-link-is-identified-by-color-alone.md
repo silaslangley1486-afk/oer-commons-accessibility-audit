@@ -1,7 +1,7 @@
 ## Issue: Links within search results are distinguished from surrounding text by color alone
 
 ### Description
-There are multiple links in each search result. These links are distinguished only by a blue color. They are only underlined on hover, which is not available to all users.
+There are multiple links in each search result. These links are distinguished only by a blue color. They are only underlined on hover, which is not available to keyboard-only or touch users.
 
 ### Impact
 Users with color vision deficiencies or users navigating without a mouse may have difficulty identifying interactive links within content.

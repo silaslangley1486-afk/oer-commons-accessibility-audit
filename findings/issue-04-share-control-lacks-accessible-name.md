@@ -4,7 +4,7 @@
 
 The "Share" button does not provide an accessible name to screen readers because its `aria-label` is applied to a non-interactive ancestor element rather than the button itself. As a result, assistive technologies fail to announce the purpose of the control. The Report button has the same issue.
 
-**Note:** This issue was initially identified via an axe DevTools scan and was manually validated by testing with a NVDA screen reader.
+**Note:** This issue was initially identified via an axe DevTools scan and was manually validated by testing with an NVDA screen reader.
 
 **WCAG 2.1:** 4.1.2 Name, Role, Value (Level A)  
 **Severity:** Medium  
