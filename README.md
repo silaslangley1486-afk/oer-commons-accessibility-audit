@@ -4,7 +4,7 @@ This repository contains a scoped, independent accessibility audit of a public e
 
 ## Executive Summary
 
-This repository documents an independent WCAG 2.1 Level AA accessibility audit of key user flows on OER Commons. The audit is primarily based on manual accessibility evaluation, including keyboard navigation, screen reader checks, and DOM inspection. Axe-based automated scans were used as a diagnostic aid to surface potential issues, with all relevant findings manually verified. Identified accessibility barriers are mapped to WCAG success criteria and accompanied by remediation guidance.
+This repository documents an independent WCAG 2.1 Level AA accessibility audit of key user flows on OER Commons. The audit is primarily based on manual accessibility evaluation, including keyboard navigation, screen reader technology checks, and DOM inspection. Axe-based automated scans were used as a diagnostic aid to surface potential issues, with all relevant findings manually verified. Identified accessibility barriers are mapped to WCAG success criteria and accompanied by remediation guidance.
 
 ## Scope
 - Site: OER Commons, https://oercommons.org/ (public pages only)
@@ -24,15 +24,13 @@ Note: This audit includes the opening and closing of the Login Modal on the Reso
 
 - Automated scanning using axe-core
 - Manual keyboard-only testing
-- Screen reader spot checks (NVDA)
+- Screen reader technology spot checks (NVDA)
 - Responsive accessibility verification
 
 Automated tools were used as an initial signal only. All reported issues were manually validated.
 
 ## Deliverables
-- Full audit report (PDF)
 - Individual issue documentation with remediation guidance
-- Sample Playwright + axe-core test
 
 ## Disclaimer
 This audit was conducted independently for educational purposes.
