@@ -8,11 +8,11 @@ The focus remains on the "Load More" link when it is activated. Without any noti
 
 ### Impact
 
-Assisted technology users may become confused about whether more results were successfully loaded. As a result, screen readers may keep trying to activate the "Load More" link or navigate through the page unnecessarily to determine whether more results were loaded.
+Assistive technology users may become confused about whether more results were successfully loaded. As a result, screen readers may keep trying to activate the "Load More" link or navigate through the page unnecessarily to determine whether more results were loaded.
 
 **WCAG 2.1 Reference:**  4.1.3 – Status Messages (AA)  
 **Severity:** Medium  
-**Affected users:** assisted technology users
+**Affected users:** assistive technology users
 
 ### Recommended remediation:
 

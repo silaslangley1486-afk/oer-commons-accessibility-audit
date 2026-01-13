@@ -6,7 +6,7 @@ On the Search Results page on mobile, the "Search" button has a magnifiying glas
 
 ### Impact
 
-Assisted Technology users will not know what the button is for.
+Assistive Technology users will not know what the button is for.
 
 **WCAG 2.1 Reference:**  4.1.2 – Name, Role, Value (A)  
 **Severity:** Medium  

@@ -8,7 +8,7 @@
 
 ### Impact
 
-1. Assisted technology users are misled about the menu type.
+1. Assistive technology users are misled about the menu type.
 2. Keyboard users cannot navigate as expected for the announced menu type.
 3. Violates proper use of ARIA roles.
 

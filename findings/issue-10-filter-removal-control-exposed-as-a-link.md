@@ -6,15 +6,15 @@ If the User has previously selected search filters, then they are listed on the 
 
 The control is implemented as an anchor (`<a>`) element and announced by screen readers as a “same page link.” But selecting it does not cause any navigation. It instead removes the filter and updates the results.
 
-Also, when the filter's control has focus, the screen reader does not name the filter that is to be removed, nor is there any indication that selecting the control will update the search results. Assisted technology users are therefore given the wrong role for the control and not enough information about what it's for.
+Also, when the filter's control has focus, the screen reader does not name the filter that is to be removed, nor is there any indication that selecting the control will update the search results. Assistive technology users are therefore given the wrong role for the control and not enough information about what it's for.
 
 ### Impact
 
-Assisted technology users will wrongly expect navigation when selecting the control. This can lead to confusion, accidental filter removal, and difficulty understanding why search results have changed.
+Assistive technology users will wrongly expect navigation when selecting the control. This can lead to confusion, accidental filter removal, and difficulty understanding why search results have changed.
 
 **WCAG 2.1:** 4.1.2 – Name, Role, Value (A)  
 **Severity:** Medium  
-**Affected users:** assisted technology users
+**Affected users:** assistive technology users
 
 **Recommended remediation:**  
 

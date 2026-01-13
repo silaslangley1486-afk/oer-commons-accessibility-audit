@@ -8,7 +8,7 @@ As a result, the dialog does not have an accessible name, and thus its purpose i
 
 ### Impact
 
-Assisted technology users may be confused about what the dialog is for. This increases cognitive load and makes it harder to decide whether to keep the dialog open.
+Assistive technology users may be confused about what the dialog is for. This increases cognitive load and makes it harder to decide whether to keep the dialog open.
 
 **WCAG 2.1 Reference:**  4.1.2 – Name, Role, Value  
 **Severity:** Medium–High  

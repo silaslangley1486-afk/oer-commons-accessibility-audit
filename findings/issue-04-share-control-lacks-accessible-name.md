@@ -8,7 +8,7 @@ The "Share" button does not provide an accessible name to screen readers because
 
 **WCAG 2.1:** 4.1.2 Name, Role, Value (Level A)  
 **Severity:** Medium  
-**Affected users:** assisted technology users
+**Affected users:** assistive technology users
 
 ### Suggested Remediation
 
