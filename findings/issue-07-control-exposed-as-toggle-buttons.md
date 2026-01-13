@@ -26,7 +26,7 @@ Assistive technology users may misunderstand how the control operates, including
 
 ### Expected Behavior
 
-Controls where there is a mutually exclusive choice should be read by screen readers as radio buttons, (e.g., “View, radio group, 2 options”). It should be clear that only one option may be selected at a time.
+Controls that present a mutually exclusive choice should be announced by screen readers as radio buttons, (e.g., “View, radio group, 2 options”). It should be clear that only one option may be selected at a time.
 
 ### Actual Behavior
 

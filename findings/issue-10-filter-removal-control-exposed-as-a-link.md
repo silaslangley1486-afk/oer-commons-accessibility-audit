@@ -2,7 +2,7 @@
 
 ### Description
 
-If the User has previously selected search filters, then they are listed on the Search Results page after the label: "Selected filters". Each filter has a clickable control in front of it that will remove it when it is clicked and then update the search results list accordingly. See /screenshots/search-filters.png for a screenshot.
+If the user has previously selected search filters, then they are listed on the Search Results page after the label: "Selected filters". Each filter has a clickable control in front of it that will remove it when it is clicked and then update the search results list accordingly. See /screenshots/search-filters.png for a screenshot.
 
 The control is implemented as an anchor (`<a>`) element and announced by screen readers as a “same page link.” But selecting it does not cause any navigation. It instead removes the filter and updates the results.
 

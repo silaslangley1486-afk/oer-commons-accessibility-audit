@@ -2,7 +2,7 @@
 
 ### Description
 
-On the Search Results page, there is a Login control that screen readers read as a "Same page link" and is implemented using an `<a>` tag. Yet clicking the Control instead opens a dialog. It function as an action and not a link.
+On the Search Results page, there is a Login control that screen readers read as a "Same page link" and is implemented using an `<a>` tag. Yet clicking the control opens a dialog. It functions as an action and not a link.
 
 ### Impact
 

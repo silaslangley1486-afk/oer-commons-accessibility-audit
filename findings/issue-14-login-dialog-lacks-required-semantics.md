@@ -1,4 +1,4 @@
-## Issue: Login modal dialog lacks required semantics and missing Close control on larger viewport widths
+## Issue: Login modal dialog lacks required semantics and a visible Close control on larger viewport widths
 
 ### Description
 
@@ -12,11 +12,11 @@ The lack of `aria-modal="true"` may cause assistive technology users to be overw
 
 **WCAG 2.1:**
 
-4.1.2 – Name, Role, Value (Primary) (A)  
-3.2.4 - Consistent Identification (Secondary) (AA)
+4.1.2 – Name, Role, Value (A)  
+3.2.4 - Consistent Identification (AA)
 
 **Severity:** Medium  
-**Affected users:** keyboard only users, assistive technology users
+**Affected users:** keyboard-only users, assistive technology users
 
 ### Evidence / notes
 - Dialog container: `<div ... role="dialog" tabindex="-1">`  

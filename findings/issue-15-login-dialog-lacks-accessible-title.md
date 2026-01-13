@@ -2,7 +2,7 @@
 
 ### Description
 
-On the Search Results page, a Login control opens a modal dialog. Screen readers announce it as a "dialog" but do not announce the visible dialog title (“Sign in / Register”). The visible tile is not not programmatically associated with the dialog container.
+On the Search Results page, a Login control opens a modal dialog. Screen readers announce it as a "dialog" but do not announce the visible dialog title (“Sign in / Register”). The visible title is not not programmatically associated with the dialog container.
 
 As a result, the dialog does not have an accessible name, and thus its purpose is unclear to assistive technology users.
 
@@ -11,7 +11,7 @@ As a result, the dialog does not have an accessible name, and thus its purpose i
 Assistive technology users may be confused about what the dialog is for. This increases cognitive load and makes it harder to decide whether to keep the dialog open.
 
 **WCAG 2.1 Reference:**  4.1.2 – Name, Role, Value  
-**Severity:** Medium–High  
+**Severity:** Medium
 **Affected users:** assistive technology users
 
 ### Evidence / notes
